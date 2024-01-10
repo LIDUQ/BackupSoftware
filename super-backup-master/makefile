@@ -1,3 +1,0 @@
-test : sourceFiles/main.cpp sourceFiles/primary.cpp sourceFiles/advanced.cpp sourceFiles/aes.cpp sourceFiles/md5.cpp sourceFiles/packANDunpack.cpp sourceFiles/compressANDdecompress.cpp sourceFiles/encryptANDdecode.cpp \
-headFiles/advanced.h headFiles/primary.h headFiles/encryptANDdecode.h headFiles/packANDunpack.h headFiles/compressANDdecompress.h
-	g++ -o test sourceFiles/main.cpp sourceFiles/primary.cpp sourceFiles/advanced.cpp sourceFiles/aes.cpp sourceFiles/md5.cpp sourceFiles/packANDunpack.cpp sourceFiles/compressANDdecompress.cpp sourceFiles/encryptANDdecode.cpp 
